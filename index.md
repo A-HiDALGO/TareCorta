@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/A-HiDALGO/TareCorta/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Historias de Usuario
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+>>>Como programador: quiero crear una ventana principal en la que se ejecute el juego.
+ 
+>>>Como programador: quiero crear un Label del nivel actual.
 
-### Markdown
+>>>Como programador: quiero añadir los 4 cuadros de colores en los que se crea la secuencia.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+>>>Como programador: quiero que se seleccione uno de los colores al azar y se ponga de otro color más intenso que se diferencie de los demás.
 
-```markdown
-Syntax highlighted code block
+>>>Como programador: quiero ir guardando la secuencia.
 
-# Header 1
-## Header 2
-### Header 3
+>>>Como jugador: quiero tocar uno de los cuadros.
 
-- Bulleted
-- List
+>>>Como programador: quiero verificar que el cuadro que toca el jugador sea el mismo de la secuencia aleatoria.
 
-1. Numbered
-2. List
+>>>Como programador: si el jugador selecciona el cuadro correcto quiero subir de nivel.
 
-**Bold** and _Italic_ and `Code` text
+>>>Como programador: quiero que al subir de nivel la secuencia cree otro color random, asi una vez cada que se suba de nivel.
 
-[Link](url) and ![Image](src)
-```
+>>>Como programador: si el jugador selecciona un cuadro que no sea el que iba en la secuencia, que pierda.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+>>>Como programador: si el usuario pierde, se reinicia todo y se borra la secuencia.
 
-### Jekyll Themes
+>>>Como programador: quiero que haya un nivel máximo.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/A-HiDALGO/TareCorta/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+>>>Como jugador: quiero que si llego al nivel máximo me deje comenzar otro juego o salirme.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+## Diagrama de Clases
+![Blank diagram](https://user-images.githubusercontent.com/62964521/116771226-e72ddb80-aa06-11eb-8330-02d7ec0e3f63.png)
